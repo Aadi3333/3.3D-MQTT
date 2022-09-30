@@ -103,7 +103,7 @@ void loop() {
   int messageSize = mqttClient.parseMessage();
   if (messageSize) {
     // we received a message, print out the topic and contents
-    Serial.print(" A message has been recieved on client  ");
+    Serial.print(" Hand of Aaditya : ");
     Serial.print(mqttClient.messageTopic());
     Serial.print("', length ");
     Serial.print(messageSize);
